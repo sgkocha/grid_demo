@@ -77,7 +77,8 @@ h1 {
 }
 .header-content__container,
 .header-menu__container,
-.webdev__container {
+.webdev__container,
+.posts__container {
   padding-left: 20px;
   padding-right: 20px;
   max-width: 1340px;
@@ -268,7 +269,6 @@ h1 {
   background-color: #e5e5e5;
 }
 .webdev__container {
-
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -334,6 +334,64 @@ h1 {
 .webdev-reg__submit:hover {
   cursor: pointer;
   background-color: aqua;
+}
+.posts-title {
+  margin-left: 140px;
+}
+
+.posts-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  gap: 10px;
+}
+.posts-elem {
+  flex-basis: auto;
+}
+.posts-elem__title {
+  text-align: center;
+}
+.posts-elem__text {
+  width: 250px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.posts-else {
+  display: block;
+  background-color: #2d3651;
+  color: white;
+  width: 200px;
+  margin: 20px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #2d3651;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-social__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-info {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+}
+.footer-info span {
+  display: block;
+  color:#637588
 }
 
 @media (min-hight = 927px) {
